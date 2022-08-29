@@ -4,9 +4,5 @@ import 'package:simple_progress/simple_progress.dart';
 
 void main() {
   test('adds one to input values', () {
-    final calculator = Calculator();
-    expect(calculator.addOne(2), 3);
-    expect(calculator.addOne(-7), -6);
-    expect(calculator.addOne(0), 1);
   });
 }

@@ -1,7 +1,4 @@
 library simple_progress;
 
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
-}
+export 'src/simple_progress_bar.dart';
+export 'src/simple_progress_bar_animated.dart';
