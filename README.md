@@ -15,6 +15,8 @@ This library helps implement expandable behavior as prescribed by Material Desig
 
 The easiest way to make a progress bar is to use `SimpleProgressBar`:
 
+![image](https://github.com/GlaidsonRM/simple_progress/blob/main/examples/ProgressBarExample.png)
+
 <img alt="animated image" height="700" src="https://github.com/GlaidsonRM/simple_progress/blob/main/examples/ProgressBarAnimated.gif" width="300"/>
 
 ```dart
