@@ -2,14 +2,10 @@
 
 Progress bar for simple and progress bar with animations
 
-# Expandable
-
-A Flutter widget that can be expanded or collapsed by the user.
-
 ## Introduction
 
-This library helps implement expandable behavior as prescribed by Material Design:
-
+These bars help you create a progress bar for process steps in your application, 
+such as remaining time to download.
 
 ## Usage
 
