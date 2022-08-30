@@ -15,7 +15,7 @@ This library helps implement expandable behavior as prescribed by Material Desig
 
 The easiest way to make a progress bar is to use `SimpleProgressBar`:
 
-![animated image](https://github.com/GlaidsonRM/simple_progress/examples/ProgressBarAnimated.gif?raw=true)
+![animated image](https://github.com/GlaidsonRM/simple_progress/blob/main/examples/ProgressBarAnimated.gif)
 
 ```dart
 import 'package:flutter/material.dart';
@@ -45,6 +45,8 @@ class ProgressBar extends StatelessWidget {
 And you also have the way to create an animated progress bar using `SimpleProgressBarAnimated`:
 
 ```dart
+import 'package:flutter/material.dart';
+import 'package:simple_progress/simple_progress.dart';
 class ProgressBar extends StatelessWidget {
   
   @override
