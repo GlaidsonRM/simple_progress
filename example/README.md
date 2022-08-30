@@ -1,16 +1,62 @@
-# example
+# Simple Progress
 
-A new Flutter project.
+Progress bar for simple and progress bar with animations
 
-## Getting Started
+# Expandable
 
-This project is a starting point for a Flutter application.
+A Flutter widget that can be expanded or collapsed by the user.
 
-A few resources to get you started if this is your first Flutter project:
+## Introduction
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+This library helps implement expandable behavior as prescribed by Material Design:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+## Usage
+
+The easiest way to make a progress bar is to use `SimpleProgressBar`:
+
+![animated image](https://github.com/GlaidsonRM/simple_progress/examples/ProgressBarAnimated.gif?raw=true)
+
+```dart
+class ProgressBar extends StatelessWidget {
+  
+  @override
+  Widget build(BuildContext context) {
+    return Row(
+      children: [
+        Expanded(
+          child: SimpleProgressBar(
+            max: 10,
+            progress: 5,
+            heightProgress: 30,
+            mainColor: mainColor,
+            backgroundColor: backgroundColor,
+          ),
+        ),
+      ],
+    );
+  }
+}
+```
+
+And you also have the way to create an animated progress bar using `SimpleProgressBarAnimated`:
+
+```dart
+class ProgressBar extends StatelessWidget {
+  
+  @override
+  Widget build(BuildContext context) {
+    return Row(
+      children: [
+        Expanded(
+          child: SimpleProgressBarAnimated(
+            max: 100, 
+            progress: 80, 
+            heightProgress: 30,
+          ),
+        ),
+      ],
+    );
+  }
+}
+```

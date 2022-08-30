@@ -45,8 +45,8 @@ class _SimpleProgressBarAnimatedState extends State<SimpleProgressBarAnimated> {
             flex: widget.progress.toInt(),
             child: AnimatedContainer(
               decoration: BoxDecoration(
-                gradient: LinearGradient(colors: [widget.colorProgress!, Colors.red]),
-                  //color: widget.colorProgress,
+                //gradient: LinearGradient(colors: [widget.colorProgress!, Colors.red]),
+                  color: widget.colorProgress,
                   borderRadius: BorderRadius.only(
                     topLeft: Radius.circular(shapeProgress),
                     bottomLeft: Radius.circular(shapeProgress),
@@ -91,6 +91,10 @@ class _SimpleProgressBarAnimatedState extends State<SimpleProgressBarAnimated> {
   List<Color> colors = [
     Colors.green,
     Colors.blue,
+    Colors.red,
+    Colors.teal,
+    Colors.orange,
+    Colors.amber
   ];
 
   @override

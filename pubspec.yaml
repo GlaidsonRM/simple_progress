@@ -1,7 +1,7 @@
 name: simple_progress
-description: A new Flutter project.
-version: 0.0.1
-homepage:
+description: Progress bar for simple and progress bar with animations.
+version: 1.0.1
+homepage: https://github.com/GlaidsonRM/simple_progress
 
 environment:
   sdk: ">=2.17.6 <3.0.0"
