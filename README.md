@@ -18,6 +18,9 @@ The easiest way to make a progress bar is to use `SimpleProgressBar`:
 ![animated image](https://github.com/GlaidsonRM/simple_progress/examples/ProgressBarAnimated.gif?raw=true)
 
 ```dart
+import 'package:flutter/material.dart';
+import 'package:simple_progress/simple_progress.dart';
+
 class ProgressBar extends StatelessWidget {
   
   @override
